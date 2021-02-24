@@ -14,6 +14,7 @@
 		626F40AC25C8D41A0032CEEE /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626F40AB25C8D41A0032CEEE /* OnboardingVC.swift */; };
 		626F40B125C8D41E0032CEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626F40B025C8D41E0032CEEE /* Assets.xcassets */; };
 		626F40B425C8D41E0032CEEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 626F40B225C8D41E0032CEEE /* LaunchScreen.storyboard */; };
+		62EF3A4E25E70A3300637800 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EF3A4D25E70A3300637800 /* TabBarController.swift */; };
 		62FBFCB225DDF3D40014E6E4 /* OnboardingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FBFCB125DDF3D40014E6E4 /* OnboardingPageView.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		626F40B025C8D41E0032CEEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		626F40B325C8D41E0032CEEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		626F40B525C8D41E0032CEEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62EF3A4D25E70A3300637800 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		62FBFCB125DDF3D40014E6E4 /* OnboardingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +74,7 @@
 				626F40AB25C8D41A0032CEEE /* OnboardingVC.swift */,
 				624C144F25DB391F004FC88E /* LoginVC.swift */,
 				624C144C25DB3901004FC88E /* HomeVC.swift */,
+				62EF3A4D25E70A3300637800 /* TabBarController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				626F40AC25C8D41A0032CEEE /* OnboardingVC.swift in Sources */,
 				624C144D25DB3901004FC88E /* HomeVC.swift in Sources */,
 				626F40A825C8D41A0032CEEE /* AppDelegate.swift in Sources */,
+				62EF3A4E25E70A3300637800 /* TabBarController.swift in Sources */,
 				626F40AA25C8D41A0032CEEE /* SceneDelegate.swift in Sources */,
 				624C145025DB391F004FC88E /* LoginVC.swift in Sources */,
 			);
