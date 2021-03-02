@@ -1,5 +1,5 @@
 //
-//  TabBarController.swift
+//  historyVC.swift
 //  SubscriptionBox
 //
 //  Created by Rafa Vazquez on 2/24/21.
@@ -7,11 +7,11 @@
 
 import UIKit
 
-class TabBarController: UITabBarController {
+class historyVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupTabBarControllers()
+        view.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.01176470611, blue: 0.5607843399, alpha: 1)
         // Do any additional setup after loading the view.
     }
     
@@ -25,9 +25,5 @@ class TabBarController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
-    func setupTabBarControllers() {
-        let homeVC = HomeVC()
-        homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "hat"), selectedImage: UIImage(systemName: "hat"))
-    }
 
 }
