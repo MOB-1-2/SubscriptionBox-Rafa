@@ -7,7 +7,7 @@
 import Foundation
 import UIKit
 
-class NewBoxVC: UIViewController {
+class IngredientVC: UIViewController {
     
     let data = [
         Ingredient(title: "Lettuce", image: UIImage(named: "lettuce")!),
@@ -52,15 +52,16 @@ class NewBoxVC: UIViewController {
     
 }
 
-extension NewBoxVC: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+extension IngredientVC: UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return data.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! IngredientCell
-        cell.backgroundColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+        cell.backgroundColor = #colorLiteral(red: 0.682464242, green: 0.7204806209, blue: 0.7296580672, alpha: 1)
         cell.data = self.data[indexPath.row]
+        cell.layer.cornerRadius = 15
         
         return cell
     }

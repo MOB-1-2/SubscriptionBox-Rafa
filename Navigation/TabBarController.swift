@@ -46,19 +46,19 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
     func setupTabBarControllers() {
         let homeVC = HomeVC()
         let nav1 = UINavigationController(rootViewController: homeVC)
-        homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "home"), tag: 0)
+        homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house.fill"), tag: 0)
         
-        let newBoxVC = NewBoxVC()
+        let newBoxVC = IngredientVC()
         let nav2 = UINavigationController(rootViewController: newBoxVC)
-        newBoxVC.tabBarItem = UITabBarItem(title: "New", image: UIImage(named: "box"), tag: 1)
+        newBoxVC.tabBarItem = UITabBarItem(title: "New", image: UIImage(systemName: "shippingbox"), tag: 1)
         
         let HistoryVC = historyVC()
         let nav3 = UINavigationController(rootViewController: HistoryVC)
-        HistoryVC.tabBarItem = UITabBarItem(title: "History", image: UIImage(named: "previous"), tag: 2)
+        HistoryVC.tabBarItem = UITabBarItem(title: "History", image: UIImage(systemName: "clock"), tag: 2)
         
         let profileVC = ProfileViewController()
         let nav4 = UINavigationController(rootViewController: profileVC)
-        profileVC.tabBarItem = UITabBarItem(title: "profile", image: UIImage(named: "profile"), tag: 3)
+        profileVC.tabBarItem = UITabBarItem(title: "profile", image: UIImage(systemName: "person.crop.circle.fill"), tag: 3)
         
         viewControllers = [nav1, nav2, nav3, nav4]
         
