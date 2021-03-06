@@ -48,7 +48,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         let nav1 = UINavigationController(rootViewController: homeVC)
         homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "home"), tag: 0)
         
-        let newBoxVC = NewBoxController()
+        let newBoxVC = NewBoxVC()
         let nav2 = UINavigationController(rootViewController: newBoxVC)
         newBoxVC.tabBarItem = UITabBarItem(title: "New", image: UIImage(named: "box"), tag: 1)
         

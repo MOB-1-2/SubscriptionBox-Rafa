@@ -1,17 +1,19 @@
 //
-//  historyVC.swift
+//  ProfileViewController.swift
 //  SubscriptionBox
 //
-//  Created by Rafa Vazquez on 2/24/21.
+//  Created by Rafa Vazquez on 3/1/21.
 //
 
 import UIKit
 
-class historyVC: UIViewController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.01176470611, blue: 0.5607843399, alpha: 1)
+        view.backgroundColor = #colorLiteral(red: 0.9249781966, green: 0.1600549519, blue: 0.3174265921, alpha: 1)
+        self.title = "Profile"
+
         // Do any additional setup after loading the view.
     }
     
