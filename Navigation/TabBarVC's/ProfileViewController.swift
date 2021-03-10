@@ -1,17 +1,19 @@
 //
-//  TabBarController.swift
+//  ProfileViewController.swift
 //  SubscriptionBox
 //
-//  Created by Rafa Vazquez on 2/24/21.
+//  Created by Rafa Vazquez on 3/1/21.
 //
 
 import UIKit
 
-class TabBarController: UITabBarController {
+class ProfileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupTabBarControllers()
+        view.backgroundColor = #colorLiteral(red: 0.9249781966, green: 0.1600549519, blue: 0.3174265921, alpha: 1)
+        self.title = "Profile"
+
         // Do any additional setup after loading the view.
     }
     
@@ -25,9 +27,5 @@ class TabBarController: UITabBarController {
         // Pass the selected object to the new view controller.
     }
     */
-    func setupTabBarControllers() {
-        let homeVC = HomeVC()
-        homeVC.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "hat"), selectedImage: UIImage(systemName: "hat"))
-    }
 
 }

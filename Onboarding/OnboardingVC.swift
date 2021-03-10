@@ -153,3 +153,5 @@ extension OnboardingVC: UIScrollViewDelegate {
         pageControl.currentPage = page
     }
 }
+
+
