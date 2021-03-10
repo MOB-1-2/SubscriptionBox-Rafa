@@ -39,7 +39,7 @@ class historyVC: UIViewController {
         let item5 = Ingredient(title: "Jalapeno", image: UIImage(named: "jalapeno")!)
         let item6 = Ingredient(title: "Cheese", image: UIImage(named: "cheese")!)
 
-        let ordersList = [Order(title: "Order #1", image: UIImage(named: "burder")!, items: [item1, item2, item6]),
+        let ordersList = [Order(title: "Order #1", image: UIImage(named: "burger")!, items: [item1, item2, item6]),
                         Order(title: "Order #2", image: UIImage(named: "burger")!, items: [item6, item6, item6]),
                         Order(title: "Order #3", image: UIImage(named: "burger")!, items: [item5, item1, item2, item3, item4, item6]),
                         Order(title: "Order #4", image: UIImage(named: "burger")!, items: [item6, item3, item5])
